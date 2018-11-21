@@ -1,5 +1,7 @@
 # Máximus Soluções
 
+# AINDA NÃO ESTAMOS ACEITANDO SUBMISSÕES
+
 ## Sobre a empresa
 
 A Máximus Soluções é uma empresa nova, e é a primeiro do seu ramo no mercado capixaba, sendo assim, por sermos pioneiros, estamos no meio de um processo de crescimento. Estamos iniciando o processo de montar uma equipe de Desenvolvimento. Buscamos pessoas para integrar nossa equipe de Desenvolvimento e que buscam, acima de tudo, aprender.
