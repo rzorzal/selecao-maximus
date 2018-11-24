@@ -1,7 +1,5 @@
 # Máximus Soluções
 
-# AINDA NÃO ESTAMOS ACEITANDO SUBMISSÕES
-
 ## Sobre a empresa
 
 A Máximus Soluções é uma empresa nova, e é a primeira do seu ramo no mercado capixaba, sendo assim, por sermos pioneiros, estamos no meio de um processo de crescimento. Estamos iniciando o processo de montar uma equipe de Desenvolvimento. Buscamos pessoas para integrar nossa equipe de Desenvolvimento e que buscam, acima de tudo, aprender.
@@ -23,7 +21,10 @@ Para participar da seleção é necessário que desenvolva uma pequena aplicaç�
   - **POST /vendas/:ClienteId** //Criar venda e especificar o Cliente. Dados da venda {valor: String (R$ -200.00 formato de exemplo), dataRealizacao:Date, saldo: String(R$ -200.00 formato de exemplo)} Atualizar o saldoDevedor do cliente
 2. Criar Modelo DER (Diagrama de Entidade e Relacionamento) do banco de dados SQL.
 3. Criar Esquema do banco de dados (Se usar um ORM com Models será melhor avaliado)
-4. **[NÃO OBRIGATÓRIO]** Criar uma página listando clientes e vendas
+4. Criar uma página listando clientes e vendas
+  - Deve mostrar uma lista de clientes
+  - Ao clicar em um cliente deve abrir um modal listando as vendas ordenadas por dataRealizacao e um formulário para adicionar nova venda.
+  - Ao adicionar a venda deve fechar o modal e atualizar a linha do cliente(saldo irá mudar de valor)
 5. **[NÃO OBRIGATÓRIO]** Subir em algum servidor para testarmos o sistema
 6. **[NÃO OBRIGATÓRIO]** Documentação e Teste Automáticos
 
@@ -33,7 +34,7 @@ Criar uma FORK deste Projeto, desenvolver o que foi solicitado e gerar um pull r
 
 ## Prazo
 
-Sem prazo definido. Mas O processo de seleço será realizado entre os meses de Janeiro/2019 e Fevereiro/2019. Qualquer informação deste processo de seleção pode ser alterado a qualquer momento.
+O processo de seleção finalizará no dia 10/12/2018. Qualquer informação deste processo de seleção pode ser alterado a qualquer momento.
 
 ## Como submeter
 
