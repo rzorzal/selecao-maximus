@@ -38,7 +38,7 @@ O processo de seleção finalizará no dia 10/12/2018. Qualquer informação des
 
 ## Como submeter
 
-Basta fazer um fork e gerar um pull request depois de terminado. Ao final do processo entraremos em contato com você. Para de identificar, coloque as informaões de contato em um arquivo no root do projeto com o nome developer.json e informar nome, sobrenome, telefones de contato, github, linkedin e endereço. Todos obrigatórios.
+Basta fazer um fork e gerar um pull request depois de terminado ou se quiser manter **anônimo** nos envie por e-mail seu projeto. Ao final do processo entraremos em contato com você. Para de identificar, coloque as informaões de contato em um arquivo no root do projeto com o nome developer.json e informar nome, sobrenome, telefones de contato, github, linkedin e endereço. Todos obrigatórios.
 
 ## Contato
 
