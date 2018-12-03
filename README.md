@@ -6,7 +6,7 @@ A Máximus Soluções é uma empresa nova, e é a primeira do seu ramo no mercad
 
 ## Vaga
 
-**[PRESENCIAL]** **[NÃO ACEITO REMOTO]** O profissional atuará principalmente com ***Desenvolvimento Back-end***. Utilizamos Node.js, Express, Sendgrid, Heroku, Postgres, PM2, Sequelize, MongoDB, Sentry, Git e etc. Mas buscamos pessoas que querem aprender. Nenhuma tecnologia é requisito, somente a vontade de aprender. Se você conhece alguma ferramenta que citamos na vaga, será um diferencial. Qualquer dúvida é só entrar em contato conosco!
+O profissional atuará principalmente com ***Desenvolvimento Back-end***. Utilizamos Node.js, Express, Sendgrid, Heroku, Postgres, PM2, Sequelize, MongoDB, Sentry, Git e etc. Mas buscamos pessoas que querem aprender. Nenhuma tecnologia é requisito, somente a vontade de aprender. Se você conhece alguma ferramenta que citamos na vaga, será um diferencial. Qualquer dúvida é só entrar em contato conosco!
 
 ## Processo de Seleção
 
