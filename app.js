@@ -47,6 +47,6 @@ app.post('/edit/:id', editPlayer);
 
 
 // set the app to listen on the port
-app.listen(port, (process.env.PORT || port) => {
+app.listen(process.env.PORT || 5000, () => {
     console.log(`Server running on port: ${port}`);
 });
