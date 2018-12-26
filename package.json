@@ -15,5 +15,15 @@
     "express-fileupload": "^1.0.0",
     "mysql": "^2.16.0",
     "req-flash": "0.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverbr23/selecao-maximus.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/silverbr23/selecao-maximus/issues"
+  },
+  "homepage": "https://github.com/silverbr23/selecao-maximus#readme"
 }
