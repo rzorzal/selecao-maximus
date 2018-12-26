@@ -15,7 +15,7 @@ const db = mysql.createConnection ({
     host: 'us-cdbr-iron-east-01.cleardb.net',
     user: 'b4f906c0d6db44',
     password: '66c0fb51',
-    database: 'heroku_b2f4fa9af135325`'
+    database: 'heroku_b2f4fa9af135325'
 });
 
 // connect to database
