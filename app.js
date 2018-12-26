@@ -12,10 +12,10 @@ const port = 5000;
 // create connection to database
 // the mysql.createConnection function takes in a configuration object which contains host, user, password and the database name.
 const db = mysql.createConnection ({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'socka'
+    host: 'us-cdbr-iron-east-01.cleardb.net',
+    user: 'b4f906c0d6db44',
+    password: '66c0fb51',
+    database: 'heroku_b2f4fa9af135325`'
 });
 
 // connect to database
