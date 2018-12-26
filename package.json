@@ -2,7 +2,7 @@
   "name": "rafael",
   "version": "1.0.0",
   "description": "aplicacao processo seletivo",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "hello"
   },
