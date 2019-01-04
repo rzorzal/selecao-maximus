@@ -1,39 +1,34 @@
 <% include partials/header.ejs %>
     <div class="table-wrapper">
-        <% if (players.length > 0) {%>
+        <% if (clientes.length > 0) {%>
             <table class="table table-hovered">
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col">ID</th>
-                        <th scope="col">Image</th>
-                        <th scope="col">First Name</th>
-                        <th scope="col">Last Name</th>
-                        <th scope="col">Position</th>
-                        <th scope="col">Number</th>
-                        <th scope="col">Username</th>
-                        <th scope="col">Action</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Data de Nascimento</th>
+                        <th scope="col">Saldo devedor</th>
+                        <th scope="col">Ações</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <% players.forEach((player, index) => { %>
+                    <% clientes.forEach((cliente, index) => { %>
                         <tr>
-                            <th scope="row"><%= player.id %></th>
-                            <td><img src="/assets/img/<%= player.image %>" class="rounded-circle player-img" alt=""></td>
-                            <td><%= player.first_name %></td>
-                            <td><%= player.last_name %></td>
-                            <td><%= player.position %></td>
-                            <td><%= player.number %></td>
-                            <td>@<%= player.user_name %></td>
+                            <th scope="row"><%= cliente.clientesId %></th>
+                            <th scope="row"><a   data-toggle="modal" href="#myModal"><%= cliente.nome %></a></th>
+
+                            <td><%= cliente.dataNascimento %></td>
+                            <td><%= cliente.saldoDevedor %></td>
                             <td>
-                                <a href="/edit/<%= player.id %>" target="_blank" rel="noopener" class="btn btn-sm btn-success">Edit</a>
-                                <a href="/delete/<%= player.id %>" class="btn btn-sm btn-danger">Delete</a>
+                                <a href="/edit/<%= cliente.clientesId %>" target="_blank" rel="noopener" class="btn btn-sm btn-success">Edit</a>
+                                <a href="/delete/<%= cliente.clientesId %>" class="btn btn-sm btn-danger">Delete</a>
                             </td>
                         </tr>
                     <% }) %>
                 </tbody>
             </table>
         <% } else { %>
-            <p class="text-center">No players found. Go <a href="/add" >here</a> to add players.</p>
+            <p class="text-center">Não há clientes cadastrados. Clique <a href="/add" >aqui</a> para adicionar clientes.</p>
         <% } %>
     </div>
 </div>

@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
  const {getHomePage} = require('./routes/index');
- const {addPlayerPage, addPlayer, deletePlayer, editPlayer, editPlayerPage} = require('./routes/player');
+ const {addClientePage, addCliente, deleteCliente, editCliente, editClientePage, vendaCliente, vendaClientePage} = require('./routes/cliente');
 const port = 8080;
 
 // create connection to database
@@ -39,11 +39,13 @@ app.use(fileUpload()); // configure fileupload
 // routes for the app
 
 app.get('/', getHomePage);
-app.get('/add', addPlayerPage);
-app.get('/edit/:id', editPlayerPage);
-app.get('/delete/:id', deletePlayer);
-app.post('/add', addPlayer);
-app.post('/edit/:id', editPlayer);
+app.get('/add', addClientePage);
+app.get('/edit/:clientesId', editClientePage);
+app.get('/vendas/:clientesId', vendaClientePage);
+app.get('/delete/:clientesId', deleteCliente);
+app.post('/add', addCliente);
+app.post('/vendas/:clientesId', vendaCliente);
+app.post('/edit/:clientesId', editCliente);
 
 
 // set the app to listen on the port
