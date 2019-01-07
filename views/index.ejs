@@ -15,7 +15,8 @@
                     <% clientes.forEach((cliente, index) => { %>
                         <tr>
                             <th scope="row"><%= cliente.clientesId %></th>
-                            <th scope="row"><a   data-toggle="modal" href="#myModal"><%= cliente.nome %></a></th>
+                            <th scope="row"><a href="/vendas/<%=cliente.clientesId%>"><%= cliente.nome %></a></th>
+                              <% include partials/modal-venda.ejs %>
 
                             <td><%= cliente.dataNascimento %></td>
                             <td><%= cliente.saldoDevedor %></td>

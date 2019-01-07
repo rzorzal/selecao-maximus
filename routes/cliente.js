@@ -83,16 +83,15 @@ module.exports = {
     },
 
     vendaClientePage: (req, res) => {
-      let vendasId = req.params.vendasId;
-      let query = "SELECT * FROM `Vendas` WHERE vendasId = '" + vendasId + "' ";
+      let clientesId = req.params.clientesId;
+      let query = "SELECT * FROM `Vendas` WHERE clientesId = '" +clientesId + "' ";
       db.query(query, (err, result) => {
           if (err) {
               return res.status(500).send(err);
           }
-          res.render('modal-venda.ejs', {
+          res.render('modal-vendabkp.ejs', {
               title: "Vendas  Cliente"
-              ,venda: result[0]
-              ,message: ''
+              ,venda: result
           });
       });
   },
@@ -102,6 +101,26 @@ module.exports = {
     let valor = req.body.valor;
     let datarealizacao = req.body.dataRealizacao;
     let saldoDevedor = req.body.saldoDevedor;
+
+
+        let usernameQuery = "SELECT * FROM `Vendas` WHERE valor = '" + valor + "'";
+
+        db.query(usernameQuery, (err, result) => {
+          if (err) {
+            return res.status(500).send(err);
+          }
+          if (result.length > 0) {
+            message = 'Cliente já cadastrado!';
+            res.render('add-venda.ejs', {
+              message,
+              title: "Bem-vindo a Maximus | Adicionar nova venda"
+            });
+          } else {
+            // upload the file to the /public/assets/img directory
+            if (err) {
+              return res.status(500).send(err);
+            }
+
               // send the cliente's details to the database
     let query = "INSERT INTO `Vendas` (valor, dataRealizacao, saldo, clientesId) VALUES ('" +
         nome + "', '" + datarealizacao + "', '" + saldoDevedor + "', '" + clienteId + "')";
@@ -112,4 +131,6 @@ module.exports = {
         res.redirect('/');
     });
   }
+});
+}
 };
