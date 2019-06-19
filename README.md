@@ -4,41 +4,54 @@
 
 A Máximus Soluções é uma empresa nova, e é a primeira do seu ramo no mercado capixaba, sendo assim, por sermos pioneiros, estamos no meio de um processo de crescimento. Estamos iniciando o processo de montar uma equipe de Desenvolvimento. Buscamos pessoas para integrar nossa equipe de Desenvolvimento e que buscam, acima de tudo, aprender.
 
+Somos uma empresa Remote First e visamos a produtivade e responsabilidade dos nossos colaborados, com isso conseguimos evoluir nosso modelo de trabalho que hoje é de dificil implementação em algumas empresas, mas não para nós, sabemos onde queremos chegar e nossos desenvolvedores são nosso principal ativo :)
+
 ## Vaga
 
-O profissional atuará principalmente com ***Desenvolvimento Back-end***. Utilizamos Node.js, Express, Sendgrid, Heroku, Postgres, PM2, Sequelize, MongoDB, Sentry, Git e etc. Mas buscamos pessoas que querem aprender. Nenhuma tecnologia é requisito, somente a vontade de aprender. Se você conhece alguma ferramenta que citamos na vaga, será um diferencial. Qualquer dúvida é só entrar em contato conosco!
+O profissional atuará principalmente com ***Desenvolvimento Full-Stack*** e o que achamos ser o mais interessante é que somos ***PART REMOTE***, são 2 dias no escritório e 3 remotos. Utilizamos Node.js, Express, Sendgrid, Heroku, Postgres, PM2, Sequelize, MongoDB, Sentry, Git e etc. Mas buscamos pessoas que querem aprender. Nenhuma tecnologia é requisito, somente a vontade de aprender. Se você conhece alguma ferramenta que citamos na vaga, será um diferencial. Qualquer dúvida é só entrar em contato conosco!
 
 ## Processo de Seleção
 
 Para participar da seleção é necessário que desenvolva uma pequena aplicação na linguagem que preferir. Porem deve seguir alguns requisitos.
 
-1. Construir uma API em Rest com os seguintes endpoints:
-  - **GET /clientes** //Irá retornar todos os clientes cadastrados no banco
-  - **POST /clientes** //Irá criar um cliente com os dados de { nome: String, dataNascimento: Date, saldoDevedor: String (R$ -200.00 formato de exemplo) }
-  - **PUT /clientes/:ClienteId** //Irá atualizar o cliente especificando o id dele
-  - **DELETE /clientes/:ClienteId** //Irá remover o cliente do banco de dados
-  - **GET /vendas/:ClienteId** //Vendas realizadas pelo cliente especificado - ordenados pela dataRealizacao
-  - **POST /vendas/:ClienteId** //Criar venda e especificar o Cliente. Dados da venda {valor: String (R$ -200.00 formato de exemplo), dataRealizacao:Date, saldo: String(R$ -200.00 formato de exemplo)} Atualizar o saldoDevedor do cliente
-2. Criar Modelo DER (Diagrama de Entidade e Relacionamento) do banco de dados SQL.
-3. Criar Esquema do banco de dados (Se usar um ORM com Models será melhor avaliado)
-4. Criar uma página listando clientes e vendas
-  - Deve mostrar uma lista de clientes
-  - Ao clicar em um cliente deve abrir um modal listando as vendas ordenadas por dataRealizacao e um formulário para adicionar nova venda.
-  - Ao adicionar a venda deve fechar o modal e atualizar a linha do cliente(saldo irá mudar de valor)
-5. **[NÃO OBRIGATÓRIO]** Subir em algum servidor para testarmos o sistema
-6. **[NÃO OBRIGATÓRIO]** Documentação e Teste Automáticos
+O sistema será para controlar sua Agenda pessoal.
+
+### Requisitos Obrigatórios
+
+#### Back-end
+
+1. Usar ORM (se escolher um banco SQL) ou ODM (se escolher um banco de documento) ou qualquer ferramenta que auxilie a criação de modelos.
+2. Deve ser uma API onde pode optar por GraphQL ou REST.
+3. O modelo do Agendamento deve ter os seguintes dados: Data de Início, Data de Termino, Descrição, Quantidade de Ingressos à venda
+
+#### Front-end
+
+1. Deve ser uma única página que listará os Agendamentos que deverão ser buscados via AJAX do servidor que desenvolver.
+2. Deve ter a possibilidade de Adicionar, Editar e Excluír um agendamento.
+3. Usar algum framework CSS como Bootstrap, Materialize, Bulma, getmdl e etc.
+
+### Requisitos Desejáveis
+
+1. Progressive Web App (PWA)
+2. Utilizar de algum framework front-end de componentes como React, Vue, Polymer, Angular. Ou Web Componetes Nativos, se souber será muito bem visto :)
+3. Back-end em Firebase Functions, AWS Lambda ou Azure Functions.
+4. Testes e/ou Documentação
 
 ## Entrega
 
-Criar uma FORK deste Projeto, desenvolver o que foi solicitado e gerar um pull request.
+Criar uma FORK deste Projeto, desenvolver o que foi solicitado e gerar um pull request. Se quiser que seja anônimo nos envie um e-mail para ricardozorzaldavila@gmail.com para te instruirmos a como deve ser feito.
 
 ## Prazo
 
-O processo de seleção finalizará no dia 10/12/2018. Qualquer informação deste processo de seleção pode ser alterado a qualquer momento.
+O processo de seleção finalizará no dia 22/07/2019. Qualquer informação deste processo de seleção pode ser alterado a qualquer momento.
 
 ## Como submeter
 
-Basta fazer um fork e gerar um pull request depois de terminado ou se quiser manter **anônimo** nos envie por e-mail seu projeto. Ao final do processo entraremos em contato com você. Para de identificar, coloque as informaões de contato em um arquivo no root do projeto com o nome developer.json e informar nome, sobrenome, telefones de contato, github, linkedin e endereço. Todos obrigatórios.
+Não há necessidade de entregar tudo o que foi pedido, mas levaremos isso em consideração ao avaliar. Basta fazer um fork e gerar um pull request depois de terminado ou se quiser manter **anônimo** nos envie um e-mail para saber como deve proceder. Ao final do processo entraremos em contato com você. Para de identificar, coloque as informaões de contato em um arquivo no root do projeto com o nome developer.json e informar nome, sobrenome, telefones de contato, github, linkedin e endereço.
+
+## Resposta
+
+A partir do dia 23/07/2019 nossa equipe irá avaliar o desenvolvimento dos condidados e algum dos nossos dev's entrará em contato. Por fim você será convidado a fazer uma entrevista on-line ou presencial para te conhecermos melhor e você nos conhecer também. Se tudo ocorrer bem você compor à equipe :)
 
 ## Contato
 
