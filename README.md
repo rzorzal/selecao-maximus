@@ -4,7 +4,7 @@
 
 A Máximus Soluções é uma empresa nova, e é a primeira do seu ramo no mercado capixaba, sendo assim, por sermos pioneiros, estamos no meio de um processo de crescimento. Estamos iniciando o processo de montar uma equipe de Desenvolvimento. Buscamos pessoas para integrar nossa equipe de Desenvolvimento e que buscam, acima de tudo, aprender.
 
-Somos uma empresa Remote First e visamos a produtivade e responsabilidade dos nossos colaborados, com isso conseguimos evoluir nosso modelo de trabalho que hoje é de dificil implementação em algumas empresas, mas não para nós, sabemos onde queremos chegar e nossos desenvolvedores são nosso principal ativo :)
+Somos uma empresa Remote First e visamos a produtivade e responsabilidade dos nossos colaboradores, com isso conseguimos evoluir nosso modelo de trabalho que hoje é de dificil implementação em algumas empresas, mas não para nós, sabemos onde queremos chegar e nossos desenvolvedores são nosso principal ativo :)
 
 ## Vaga
 
@@ -14,7 +14,7 @@ O profissional atuará principalmente com ***Desenvolvimento Full-Stack*** e o q
 
 Para participar da seleção é necessário que desenvolva uma pequena aplicação na linguagem que preferir. Porem deve seguir alguns requisitos.
 
-O sistema será para controlar sua Agenda pessoal.
+O sistema será para controlar sua Agenda Eventos de uma empresa de eventos.
 
 ### Requisitos Obrigatórios
 
@@ -33,7 +33,7 @@ O sistema será para controlar sua Agenda pessoal.
 ### Requisitos Desejáveis
 
 1. Progressive Web App (PWA)
-2. Utilizar de algum framework front-end de componentes como React, Vue, Polymer, Angular. Ou Web Componetes Nativos, se souber será muito bem visto :)
+2. Utilizar de algum framework front-end de componentes como React, Vue, Polymer, Angular. Ou Web Componentes Nativos, se souber será muito bem visto :)
 3. Back-end em Firebase Functions, AWS Lambda ou Azure Functions.
 4. Testes e/ou Documentação
 
